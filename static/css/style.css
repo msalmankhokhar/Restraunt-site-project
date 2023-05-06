@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background-color: black; */
+}
+header{
+    /* margin-bottom: 15px; */
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #efefef;
+    /* background: rgb(148, 146, 146) url("https://loremflickr.com/358/320/makkah"); */
+    /* background-blend-mode:darken; */
+    padding: 10px 0px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: fit-content;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #b18940;
+    font-weight: bold;
+    transition: font-size 0.4s ease;
+    
+}
+nav ul li a:hover{
+    color: #b18940;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+div.logo img{
+    /* border: 2px solid yellow; */
+    width: 150px;
+    /* height: 300px; */
+}
+div.logo{
+    width: fit-content;
+}
+div.card{
+    width: fit-content;
+    margin: 10px;
+    align-self: center;
+    box-shadow: 1px 1px 16px #9e9a93;
+    filter: none;
+}
+div.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#footer-container{
+    background-color: #efefef;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* width: 100%; */
+}
+header{
+    /* background: black url("https://loremflickr.com/320/240/makkah"); */
+}
+.btn{
+    background-color: #b18940;
+    /* border: 1px solid #b18940; */
+    border: none;
+}
+#subscribe-inputs{
+    flex-direction: column;
+}
+#cr{
+    align-items: center;
+}
+main{
+    padding: 15px 0px;
+    background: rgb(148, 147, 147) url("https://loremflickr.com/320/240/makkah");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    /* filter: blur(8px); */
+}
