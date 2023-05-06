@@ -10,6 +10,8 @@ nav ul li{
 div.row{
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    flex-wrap: nowrap
 }
 div.row div{
     padding: 0px;
@@ -45,9 +47,25 @@ div#logo-footer{
     margin-bottom: 25px;
 }
 div#linksdiv{
+    display: flex;
+    flex-direction: row;
     margin: 20px 0px;
     /* padding: 0px; */
-    display: flex;
-    justify-content: center;
+    /* justify-items: space-around; */
     justify-content: space-around;
+    /* width: 100vw; */
+    max-width: 100vw;
+    /* display: none; */
+}
+div#linksdiv div{
+    width: max-content;
+    /* display: inline; */
+}
+div#formdiv{
+    width: 100vw;
+    padding: 0px 14px;
+}
+div#subscribe-inputs button{
+    width: 100px;
+    margin: auto;
 }

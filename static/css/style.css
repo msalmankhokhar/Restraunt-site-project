@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body{
-    /* background-color: black; */
+    /* background-color: #e3e3e3; */
 }
 header{
     /* margin-bottom: 15px; */
@@ -85,10 +85,21 @@ header{
 }
 main{
     padding: 15px 0px;
-    background: rgb(148, 147, 147) url("https://loremflickr.com/320/240/makkah");
-    background-size: cover;
+    /* background: rgb(148, 147, 147) url("https://loremflickr.com/320/240/makkah"); */
+    /* background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: darken; */
     /* filter: blur(8px); */
+}
+div#linksdiv{
+    /* width: fit-content; */
+    max-width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    /* width: 50vw; */
+}
+div.row{
+    /* max-width: 100vw; */
+    flex-wrap: nowrap;
 }
